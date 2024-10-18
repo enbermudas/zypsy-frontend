@@ -1,0 +1,32 @@
+@import "../../variables.scss";
+
+.btn {
+  background: $primary;
+  color: $bg-foreground;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+
+  &--ghost {
+    background: transparent;
+    color: $primary;
+    outline: 1px solid $primary;
+  }
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

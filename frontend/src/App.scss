@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+.app {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  height: 100vh;
+  position: relative;
+  padding-right: 24px;
+  overflow-y: hidden;
+}

@@ -1,0 +1,17 @@
+@import "normalize.css";
+@import "variables.scss";
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background: $white;
+}
+
+p {
+  margin: 0;
+}

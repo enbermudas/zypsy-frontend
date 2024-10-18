@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid $accent;
+  border-radius: 4px;
+  margin-top: 64px;
+  width: 100%;
+}
+
+.content {
+  overflow: auto;
+}
+
+.empty {
+  padding: 32px 16px;
+}
+
+.post-header {
+  color: $secondary;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 20px 36px;
+  border-bottom: 1px solid $accent;
+}
